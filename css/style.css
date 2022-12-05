@@ -1,0 +1,109 @@
+body{
+    background-color: #000000;
+    overflow: hidden;
+    font-family: Calibri;
+    font-weight: bold;
+}
+svg{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+width: 3800px;
+    height: 900px;
+    display: none;
+
+}
+.start{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Calibri;
+    font-size: x-large;
+    color: white;
+    margin-top: 10px;
+    animation: animation-v linear infinite 1.4s;
+    animation-delay: 2.9s;
+}
+.container, .slide{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.slide{
+    display: none;
+}
+.s-0{
+    display: block;
+}
+
+
+
+p.android{
+    font-size: 5em;
+    color: black;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+}
+.content p{
+    font-size: 5em;
+    text-align: center;
+    width: 33%;
+
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+.imgs{
+    position: absolute;
+    top: 60%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.imgs img{
+    width: 20%;
+    margin: 0 6.5% 0 6.5%;
+    max-height: 250px;
+    opacity: 0;
+}
+
+
+
+@keyframes animation-v {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+#a1{
+    color: orange;
+}
+
+
+
