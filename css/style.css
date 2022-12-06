@@ -6,11 +6,11 @@ body{
 }
 svg{
     position: absolute;
-    top: 70%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-width: 3800px;
-    height: 900px;
+width: 1400px;
+    height: 140px;
     display: none;
 
 }

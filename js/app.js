@@ -12,10 +12,7 @@ var slides = [
                   targets: '.name path',
                   strokeDashoffset: [anime.setDashoffset, 0],
                   easing: 'easeInOutSine',
-                  duration: 1500,
-                  delay: function (el, i) {
-                      return i * 250
-                  },
+                  duration: 10000,
                   direction: 'alternate',
                   loop: false
               });
