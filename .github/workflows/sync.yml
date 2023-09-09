@@ -16,4 +16,4 @@ jobs:
         server: ${{ secrets.SERVER}}
         username: ${{ secrets.USER}}
         password: ${{ secrets.PASS}}
-        server-dir: public_html/portfolio
+        server-dir: public_html/portfolio/
